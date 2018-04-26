@@ -1,6 +1,6 @@
 # robotframework-excel10library
 
-Robot Framework Excel library compatible with .xslx files
+Robot Framework Excel library compatible with .xlsx files
 =========================================================
 
 Excel10Library is a library for Robot Framework that supports the latest versions of Excel document format. 
@@ -19,7 +19,7 @@ Requirements
 robotframework-excel10library requires the following :
 
 * Python 2.7.4 or newer. Older and newer versions are not tested but are likely to work (if its not to far back)
-* Robot Framework 2.8.5 or newer
+* Robot Framework 3.0.4 or newer
 
 Python libraries:
 * xlwings. Recommended to use: pip install xlwings
