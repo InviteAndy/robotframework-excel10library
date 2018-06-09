@@ -423,6 +423,7 @@ class Excel10Library:
 
         """
         sheet = self.wb.sheets[sheetname]
+        value = str(value)
         if value.replace('.','',1).isdigit():
             sheet.range((int(row), int(column))).value = '\''+str(value)
         else:
